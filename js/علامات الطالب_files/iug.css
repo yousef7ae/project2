@@ -1,0 +1,113 @@
+html {
+      direction: rtl !important;
+}
+
+/*
+@font-face {
+ font-family:'DroidKufi';
+ src:url("http://academicprogs.iugaza.edu/ords/empunion/r/files/static/v73/font/DroidKufi-Bold.ttf")
+ 
+}
+*/
+
+@font-face {
+ font-family:'DroidKufi';
+ src:url("https://sportal.iugaza.edu.ps/ords/empunion/r/147/files/static/v38/font/DroidKufi-Bold.ttf")
+}
+
+body {
+	font-size:13px;
+	font-family: 'DroidKufi', sans-serif;
+}
+
+body .ui-widget {
+        font-family : 'DroidKufi';
+		font-size:13px;
+}
+
+.button {
+        font-family : 'DroidKufi';
+}
+
+.t-TreeNav .a-TreeView-node--topLevel>.a-TreeView-content .a-TreeView-label {
+	font-size:12px;
+}
+
+.a-TreeView-content {
+	font-size:11px;
+}
+.is-current {
+	color:springgreen!important;
+}
+.t-Page .t-Page--popupLOV {
+      direction: rtl !important;
+}
+
+.a-GV-header {
+text-align: center !important;
+}
+
+.a-IRR-headerLabel, .a-IRR-headerLink {
+ text-align : center;
+}
+
+.ui-dialog-title {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.apex-item-text {
+  margin-right : 1px;
+}
+
+.t-Form-fieldContainer--floatingLabel .t-Form-inputContainer {
+  padding-right : 2px;
+}
+
+.ui-dialog .ui-dialog-title {
+  font-size:2rem;
+}
+
+.ui-dialog.ui-dialog--inline .ui-dialog-titlebar {
+       background-color: khaki;
+}
+
+.ui-dialog .ui-dialog-titlebar {
+       background-color: khaki !important;
+}
+
+.a-GV-table th.a-GV-header {
+     text-align: center!important;
+     background-color: cornsilk;
+}
+
+report tr .t-Report-colHead:last-child {
+    border-left: 1px solid #e6e6e6!important;
+}
+
+.numberBold {
+	font-weight: 900;
+}
+.u-RTL .t-Report-cell, .u-RTL .t-Report-colHead {
+      border-left-width: 1px;
+}
+
+.t-Footer {
+   display:none;
+}
+
+.alertify-inner{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.t-AVPList-label {
+  font-weight: bold;
+}
+.nodatafound {
+	background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 12pt;
+    font-weight: bold;
+}
